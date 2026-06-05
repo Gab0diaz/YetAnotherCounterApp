@@ -24,6 +24,7 @@ function App() {
           Count is {count}
         </button>
 
+      
         <section id="multiplier">
           <button
             type="button"
@@ -31,14 +32,20 @@ function App() {
             onClick={() => setCount((count) => count * 2)}
           >
             Multiply by 2
+            onClick={() => setCount((count) => count -1)}
+          >
+            Decrement by 1
           </button>
         </section>
       </section>
+      
 
       <div className="ticks"></div>
 
     
-
+    <div className="footer">
+      Made by Gabriel Diaz
+    </div>
       
     </>
   )
