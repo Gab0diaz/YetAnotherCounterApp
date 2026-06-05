@@ -28,7 +28,9 @@ function App() {
       <div className="ticks"></div>
 
     
-
+    <div className="footer">
+      Made by Gabriel Diaz
+    </div>
       
     </>
   )
